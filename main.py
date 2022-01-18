@@ -1,8 +1,4 @@
-teksts = input("cipari:")
-def countNumbers(teksts):
-  summa = 0
-  for simbols in teksts:
-    summa = summa + int(simbols)
-  print (summa) 
-  return summa
-countNumbers(teksts)
+teksts = input("Vārds:")
+def countZeros(teksts):
+  return teksts.count("o")
+print (countZeros(teksts)) 
